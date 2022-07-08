@@ -8,7 +8,6 @@ const Container = styled.div`
     width: 100%;
     margin-top: 60px;
     padding: 0px 100px;
-    margin-bottom: 200px;
 `
 const Wrapper = styled.div`
     width: 100%;

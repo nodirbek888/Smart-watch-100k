@@ -25,6 +25,8 @@ const Wrapper = styled.div`
         border-radius: 5px;
         cursor: pointer;
         color: #808080;
+        font-family: 'Inter', sans-serif;
+        padding: 0px 15px;
     }
     .btn{
         margin-top: 40px;
@@ -39,13 +41,17 @@ const Inputs = styled.div`
     margin-top: 50px;
     input{
         width: 400px;
-        height: 40px;
-        padding-left: 10px;
+        height: 50px;
+        padding-left: 15px;
         outline: none;
         border: none;
         border: 1px solid #808080;
         background-color:white; 
         border-radius: 5px;
+        &:placeholder-shown{
+            color: #808080;
+             font-family: 'Inter', sans-serif;
+        }
     }
 `
 

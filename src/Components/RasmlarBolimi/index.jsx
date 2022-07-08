@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from "react-elastic-carousel";
 import {Container,Img} from './style'
-import smar1 from '../../assets/imgs/smart-watch1.png'
+import smart1 from '../../assets/imgs/smart-watch1.png'
 // import smar2 from '../../assets/imgs/smart-watch2.png'
-import smar3 from '../../assets/imgs/smart-watch3.png'
+import smart3 from '../../assets/imgs/smart-watch3.png'
 
 const Rasmlar = () => {
   const breakPoints = [
@@ -15,6 +15,7 @@ const Rasmlar = () => {
   return (
     <Container>
       <h1 className='title'>Mahsulot rasmlari</h1>
+
       <Carousel 
 					itemsToShow={1}
 					itemsToScroll={1}
@@ -23,18 +24,18 @@ const Rasmlar = () => {
 					enableMouseSwipe={true}   
 					// showArrows={false} 
 					>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
-            <Img src={smar1}/>
-            <Img src={smar3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
+            <Img src={smart1}/>
+            <Img src={smart3}/>
           </Carousel>
     </Container>
   )
