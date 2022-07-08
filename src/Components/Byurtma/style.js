@@ -31,6 +31,10 @@ const Wrapper = styled.div`
     .btn{
         margin-top: 40px;
     }
+    .SelecrtWrapper{
+        margin-top: 20px;
+
+    }
 `
 
 const Inputs = styled.div`
@@ -41,16 +45,21 @@ const Inputs = styled.div`
     margin-top: 50px;
     input{
         width: 400px;
-        height: 50px;
+        height: 35px;
         padding-left: 15px;
         outline: none;
         border: none;
-        border: 1px solid #808080;
+        border: 1px solid #d9d9d9;
         background-color:white; 
         border-radius: 5px;
         &:placeholder-shown{
-            color: #808080;
+            color: #7a767662;
+            font-size: 12px;
              font-family: 'Inter', sans-serif;
+        }
+        &:focus{
+            border:1px solid #1890ff;
+            box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
         }
     }
 `

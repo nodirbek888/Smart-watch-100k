@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,13 +14,14 @@ const Container = styled.div`
 `
 const Wrapper = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    height: 70px;
     width: 250px;
     margin-top: 20px;
     background-color: var(--primaryColor);
-    padding: 10px 20px;
+    padding:  10px 20px;
     .sub-title{
+        margin-top: 10px;
         margin-left: 10px;
     }
 `

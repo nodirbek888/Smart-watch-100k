@@ -4,7 +4,7 @@ import Malumot from '../Components/Malumot/index'
 import RasmlarBolimi from '../Components/RasmlarBolimi/index'
 import Byurtma from '../Components/Byurtma/index'
 import Batafsil from '../Components/Batafsil/index'
-import Accordion from '../Components/Accordion'
+import Savol from '../Components/Savol/index'
 import Sharhlar from '../Components/Sharhlar/index'
 import Footer from '../Components/Footer/index'
 const Root = () => {
@@ -15,7 +15,7 @@ const Root = () => {
       <RasmlarBolimi/>
       <Byurtma/>
       <Batafsil/>
-      <Accordion/>
+      <Savol/>
       <Sharhlar/>
       <Byurtma/>
       <Footer/>
